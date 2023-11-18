@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginForm</title>
+    <style>
+        .container
+        {
+            height: 700px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .form
+        {
+         
+            background-color: whitesmoke;
+            border-radius: 15px;
+            height: 600px;
+            width: 400px;
+            position: relative;
+           
+        }
+        h3{
+            margin-top: 40px;
+            font-size: x-large;
+        }
+        input{
+            
+            border-style: none;
+            background: none;
+            margin-left: 50px;
+            border-bottom: 2px solid gray;
+            width: 275px;
+           
+            padding-bottom: 5px;
+        
+
+        }
+        input:focus
+        {
+            outline: none;
+        }
+        ::placeholder
+        {
+            font-size: medium;
+        }
+        h4{
+            margin-left: 50px;
+            font-size: larger;
+        }
+        .pass
+        {
+            float: right;
+            margin-right: 40px;
+        }
+        button
+        {
+            
+            width: 290px;
+            height: 35px;
+            background: linear-gradient(to right,blue,rgb(255, 0, 255));
+            border-style: none;
+            border-radius: 10px;
+        }
+        ::placeholder
+        {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        i
+        {
+           position: absolute;
+           left: 50px;
+            
+        }
+        input[type=text]
+        {
+            margin-left:70px;
+        }
+        input[type=password]
+        {
+            margin-left:70px;
+        }
+        .email
+        {
+            position: relative;
+            top: 3px;
+        }
+        
+      
+
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body style="background-color: rgb(61,62,66);">
+   <div class="container">
+        <div class="form">
+            <center><h3>Login</h3></center>
+            <h4>Username</h4>
+            
+            
+            <i class="fa-solid fa-user"></i><input class="" type="text" placeholder="  Type Your Name">
+            <h4>Password</h4>
+            <i class="fa-solid fa-key"></i><input class="" type="password" placeholder="  Type Your password">
+            <p class="pass">Forgot Password?</p>
+            <center><button>Login</button></center>
+            <br>
+            <center><p class="sign"><b>Or Sign Up Using</b><p></center>
+               <a href="https://www.facebook.com/"> <img src="./Facebook-logo.png" alt="" style="height: min-content; width: min-content; height: 50px; width: 70px; margin-left: 100px;"></a>
+               <a href=" https://www.instagram.com/  "><img src="./448-4486200_instagram-circle-png.png" alt="" style="height: min-content; width: min-content; height: 45px; width: 45px; margin-left: 0px;"></a>
+               <a href="https://mail.google.com/mail/u/0/?hl=en/#inbox?compose=DmwnWrRvwLvQKbqrscrxPlfTkSdgKXBLTHmwsHnpVrqNSRCNZSTPcKtLvzNVQqQLJkFwBjMsdjSV"><img class="email" src="./email-clipart-inbox-8.png" alt="" style="height: min-content; width: min-content; height: 50px; width: 50px; margin-left: 10px; "></a>
+                
+                <center><p><b>Or Sign Up Using <br> SIGN UP</b></p> </center>
+            
+
+
+        </div>
+    </div>
+    
+</body>
+</html>
